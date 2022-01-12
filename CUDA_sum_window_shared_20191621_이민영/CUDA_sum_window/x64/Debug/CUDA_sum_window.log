@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file CUDA_sum_window.cu...
+  
+  C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\CUDA_sum_window.cu.obj "C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window\CUDA_sum_window.cu" 
+C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window\CUDA_sum_window.cu(113): warning #186-D: pointless comparison of unsigned integer with zero
+  
+C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window\CUDA_sum_window.cu(135): warning #177-D: variable "shared" was declared but never referenced
+  
+C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window\CUDA_sum_window.cu(136): warning #177-D: variable "real" was declared but never referenced
+  
+C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\CUDA_sum_window\CUDA_sum_window.cu(113): warning #186-D: pointless comparison of unsigned integer with zero
+  
+  CUDA_sum_window.cu
+  CUDA_sum_window.vcxproj -> C:\Users\Lee Minyoung\Desktop\고소실\CUDA_sum_window_shared_20191621_이민영\x64\Debug\CUDA_sum_window.exe
